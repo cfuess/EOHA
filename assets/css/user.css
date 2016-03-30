@@ -1,0 +1,199 @@
+.navbar {
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar-brand .glyphicon {
+    margin-right: 6px;
+}
+
+.hero {
+    /*background:url(../../assets/img/city_bg.jpg) no-repeat center;*/
+    /*background:url(../../assets/img/clinic.png) no-repeat center;*/
+    /*background:url(../../assets/img/EastOlympiaLogoWithWords.svg) no-repeat center;*/
+    /*background:url(../../assets/img/EastOlympiaLogo.svg) no-repeat center;*/
+    background: url(../img/P1030883.JPG) no-repeat center;
+    /*background-color:#E6D97B;*/
+    background-size: cover;
+    border: none;
+}
+
+@media (min-width:992px) {
+    .hero .get-it {
+        text-align: right;
+        margin-top: 80px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .hero .get-it {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+@media (max-width:992px) {
+    .hero .phone-preview {
+        text-align: center;
+    }
+}
+
+.hero .get-it h1, .hero .get-it p {
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+
+.hero .get-it .btn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-shadow: none;
+}
+
+div.iphone-mockup {
+    position: relative;
+    max-width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.iphone-mockup img.device {
+    width: 100%;
+    height: auto;
+}
+
+.iphone-mockup .screen {
+    position: absolute;
+    width: 88%;
+    height: 77%;
+    top: 12%;
+    border-radius: 2px;
+    left: 6%;
+    border: 1px solid #444;
+    background-color: #aaa;
+    overflow: hidden;
+    /*background: url(../../assets/img/screen-content-iphone-6.jpg);*/
+    background-size: cover;
+    background-position: center;
+}
+
+    .iphone-mockup .screen:before {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 70%;
+        height: 140%;
+        top: -12%;
+        right: -60%;
+        transform: rotate(-19deg);
+        opacity: 0.2;
+    }
+
+.icon-feature {
+    text-align: center;
+}
+
+    .icon-feature .glyphicon {
+        font-size: 60px;
+    }
+
+section.features {
+    background-color: #369;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.features h2 {
+    color: #fff;
+}
+
+.features .icon-features {
+    margin-top: 15px;
+}
+
+.testimonials blockquote {
+    text-align: center;
+}
+
+section.testimonials {
+    margin: 50px 0;
+}
+
+.site-footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .site-footer h5 {
+        text-align: left;
+    }
+}
+
+.site-footer h5 {
+    color: inherit;
+    font-size: 20px;
+}
+
+.site-footer .social-icons a:hover {
+    opacity: 1;
+}
+
+.site-footer .social-icons a {
+    display: inline-block;
+    width: 32px;
+    border: none;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 4px;
+    color: #fff;
+    text-align: center;
+    background-color: #798FA5;
+    height: 32px;
+    opacity: 0.8;
+    line-height: 32px;
+}
+
+@media (min-width:768px) {
+    .site-footer .social-icons {
+        text-align: right;
+    }
+}
+
+.device {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+h2.homeTitleText {
+    font-size: 240%;
+}
+
+h3.practice {
+    padding-bottom: 10px;
+}
+
+.homeMainText {
+    font-size: 120%;
+}
+
+.footerTopSpacing {
+    margin-top: 30px;
+}
+
+.im-centered {
+    margin: auto;
+    max-width: 700px;
+    padding: 0 20px;
+    font-size: 17.5px;
+}
+
+.footer-centered {
+    margin: auto;
+    max-width: 350px;
+}
