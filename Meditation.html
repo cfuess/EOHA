@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>East Olympia Healing Arts - Olympia, WA - Meditations</title>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="assets/fonts/font-awesome.min.css" rel="stylesheet"/>
+<link href="assets/css/user.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="Meditation.html#">East Olympia Healing Arts</a>
+                
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right" role="presentation">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="Meditation.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Practitioners <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="presentation">
+                            <li><a href="Practitioner/Jolene_Stokesberry.html">Jolene Stokesberry</a></li>
+                            <li><a href="Practitioner/Dr_Elinor_Jordan.html">Dr. Elinor Jordan</a></li>
+                            <li><a href="Practitioner/Dennis_Clarin.html">Dennis Clarin</a></li>
+                            <li><a href="Practitioner/Suzanne_Wenner.html">Suzanne Wenner</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="Meditation.html">Meditation</a></li>
+                    <li><a href="FindUs.html">Find Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        
+
+
+<div class="container">
+    <h3 class="practice">Get your meditations here</h3>
+    <div id="download" style="display: none; margin-left: 50px">
+        <div style="margin-bottom: 4px">Click to play or download:</div>
+        <p><a href="assets/recordings/Breath.mp3">Breath <i class="glyphicon glyphicon-volume-up"></i></a></p>
+            <p><a href="assets/recordings/Grounding.mp3">Grounding <i class="glyphicon glyphicon-volume-up"></i></a></p>
+        </div>
+
+    <div id="deny" style="display: none">
+        <p>To access the meditations you must have a valid pass code.  Please enter it below and press Submit</p>
+    </div>
+
+    <div id="pwd">
+        Enter Passcode: <input id="pwdText" type="text" />
+        <input id="button" type="button" value="Submit" onclick="setCookie();" /> <span id="invalidCode" style="display: none; color: red;">Invalid Code</span>
+    </div>
+</div>
+
+
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div class="col-md-3 col-sm-6 footerTopSpacing">
+                        <a href="Practitioner/Dennis_Clarin.html">Dennis Clarin</a><br>
+                        (360) 402-6583<br>
+                        <a href="Meditation.html#" rel="moc/erutcnupucayojne//sinned" class="email">Email Me!</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footerTopSpacing">
+                        <a href="Practitioner/Dr_Elinor_Jordan.html">Dr. Elinor Jordan</a><br>
+                        (360) 790-3379<br>
+                        Fax: (360) 705-0112<br>
+                        <a href="Meditation.html#" rel="moc/oohay//nadrojeronile" class="email">Email Me!</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footerTopSpacing">
+                        <a href="Practitioner/Suzanne_Wenner.html">Suzanne Wenner</a><br>
+                        (360) 402-4675
+                    </div>
+                    <div class="col-md-3 col-sm-6 footerTopSpacing">
+                        <a href="Practitioner/Jolene_Stokesberry.html">Jolene Stokesberry, M.A.</a><br>
+                        (360) 791-6287<br>
+                        <a href="Meditation.html#" rel="ude/rytsab//yrrebsekots/eneloj" class="email">Email Me!</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-centered">
+                <div class="row">
+                    <br>
+                    Copyright &copy; 2012, East Olympia Healing Arts. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/nospam.js"></script>
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $('a.email').nospam({ replaceText: true });
+        });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.0/js.cookie.min.js"></script>
+    <script src="assets/js/meditationScript.js"></script>
+
+
+
+
+
+<!-- Visual Studio Browser Link -->
+<script type="application/json" id="__browserLink_initializationData">
+    {"appName":"Unknown","requestId":"8b231b26e0e7491280c8aa718fe00e6d"}
+</script>
+<script type="text/javascript" src="http://localhost:49864/10e7c93abdb24dab8a4a66cc25422f7f/browserLink" async="async"></script>
+<!-- End Browser Link -->
+
+</body>
+</html>
